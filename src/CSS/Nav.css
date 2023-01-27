@@ -1,0 +1,56 @@
+.Nav{
+    margin: 1rem;
+}
+.navList{
+    display: flex;
+    background-color: snow;
+    border-radius: 40px;
+}
+.navList h1{
+    margin-left: 1.5rem;
+}
+.navList ul div{
+    display: inline-block;
+    list-style-type: none;
+    margin: 1rem ;
+}
+.navList div button{
+    border: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: larger;
+    background-color: snow;
+    color: black;
+}
+
+@media screen and (max-width: 740px){
+    .navList ul div{
+        margin: 0.5rem;
+        /* display: flex; */
+        /* flex-direction: row;    */
+    }
+    
+}
+
+@media screen and (max-width: 687px){
+    .navList h1{
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 505px){
+    .navList h1{
+        margin-top: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 418px){
+    .navList h1{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 401px){
+    .navList h1{
+        margin-top: 6rem;
+    }
+}

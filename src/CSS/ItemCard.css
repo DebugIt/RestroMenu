@@ -1,0 +1,47 @@
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 20rem;
+    text-align: center;
+    display: inline-block;
+    /* flex-direction: column; */
+    margin: 1rem;
+}
+.id{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+.category{
+    font-family: 'Roboto', sans-serif;
+    opacity: 60%;
+    font-size: larger;
+
+}
+.itemName{
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+.image img{
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 743px){
+    .card{
+        width: 90%;
+    }
+}
